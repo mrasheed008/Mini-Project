@@ -251,6 +251,17 @@ footer .cv-pdf i:hover{
     padding: 0;
     margin: 0;
 }
+.timeline-item::after{
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
 
 
 /*-----------------------------------Media Queries--------------------------------------------*/
